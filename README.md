@@ -28,8 +28,9 @@ Assumptions taken in developing this application -
 Start application by running below command
 ```
 1) Install go and set GOPATH, for which you can use https://github.com/golang/go/wiki/SettingGOPATH
-2) This project should be in this path `$GOPATH/src/github.com`
-3) Go to project directoy and run command `go run main.go`
+2) This project should be in this path $GOPATH/src/github.com
+3) Go to project directoy and run command go run main.go
+4) Follow the instructions on the screen and proceed accordingly.
 ```
 
 ## Test
@@ -38,7 +39,7 @@ To run execution of test functions. As our application involved user input, so f
 
 ```
 1) Go to project main directory.
-2) Run this command `go test -v -race ./...`
+2) Run this command go test -v -race ./...
 3) It will perform testing of all test cases written in <file_name>_test.go.
 4) On successful completion of all test cases, new files user.csv and <userId>.csv will be generated.
 ```
